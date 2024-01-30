@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato:wght@300;900&display=swap');
+
+/* commons */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+} 
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+.header-top {
+    background-color: #446084;
+    color: white;
+}
+
+.header-top .flex-row,
+.header-bottom .flex-row {
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+
+.header-bottom .flex-row {
+    height: 100%;
+}
+
+.left {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.icons i{
+    font-size: 12px;
+    color: white;
+}
+
+a.menu-top {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header-bottom {
+    height: 90px;
+
+}
+
+a.menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #848484;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.logo img {
+   height: 50px; 
+}
+
+/* jumbotron */
+.jumbotron {
+    height: 600px;
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.testo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.testo-italic {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+a.shop {
+    display: inline-block;
+    border: 1px solid white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* main */
+
+/* footer */
+
