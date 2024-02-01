@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+/* commons */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #fff;
+}
+
+h1, h2, h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    color:  #7a4e11;
+}
+
+/* buttons and backgrounds */
+.my_btn {
+    background-color: #c48938;
+    color: white;
+}
+
+.my_btn:hover {
+    color:  #7a4e11;
+    background-color:  #f4d5a8;
+}
+
+/* navbar */
+a.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: #643517;
+}
+
+a.nav-link {
+    color: #643517;
+    margin: 0 10px ;
+}
+
+a.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* slider */
+.carousel-item img {
+    height: 700px;
+}
+
+.carousel-caption h2 {
+    font-size: 70px;
+    background-color: #4b230aa9;
+}
+
+/* main */
+
+/* about */
+
+h1::after {
+    display: block;
+    content: "";
+    background-color: #cb8118;
+    width: 50%;
+    height: 2px;
+}
+
+#about img {
+    height: 500px;
+}
+
+#about p {
+  line-height: 1.8; 
+}
+
+
+
