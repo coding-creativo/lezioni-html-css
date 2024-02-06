@@ -9,6 +9,14 @@ header {
     background-color: #37517e;
 }
 
+ul li {
+    list-style: none;
+}
+
+.white {
+    color: white;
+}
+
 /* navbar */
 a.navbar-brand {
     color: white;
@@ -28,7 +36,6 @@ a.nav-link:hover {
 
 a.my_btn {
     border: 2px solid #46addf;
-    color: white;
     padding: 6px 25px;
 }
 
@@ -76,4 +83,59 @@ a.my_btn:hover {
 .sponsor img:hover {
     filter: none;
     transform: scale(110%);
+}
+
+/* about */
+.menu-about i {
+    color: #37517e;
+    margin-right: 5px;
+}
+
+.menu-about li {
+    margin: 10px 0;
+}
+
+/* #accordion  */
+
+#accordion {
+    background-color: #f3f5fa;
+} 
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:hover {
+    color: #3f7eeb;
+}
+
+.accordion-item {
+    margin: 15px 0;
+    padding: 5px 0;
+}
+
+.accordion-button span {
+    color: #3f7eeb;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* progress */
+.testo-progress {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+}
+
+.progress {
+    border-radius: 0;
+    height: 10px;
+}
+
+.progress-bar {
+    background-color: #37517e;
 }
