@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #37517e;
+}
+
+ul li {
+    list-style: none;
+}
+
+h3 {
+    font-family: "Jost", sans-serif;
+    text-transform: uppercase;
+    color: #37517e;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    padding: 20px 0;
+}
+
+h3::after {
+    content:"";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: #46addf;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-20px);
+}
+
+h3::before {
+    content:"";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-60px);
+}
+
+.white {
+    color: white;
+}
+
+/* navbar */
+a.navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+a.nav-link {
+    color: white;
+    font-size: 14px;
+}
+
+a.nav-link:hover {
+    color: #46addf;
+}
+
+a.my_btn {
+    border: 2px solid #46addf;
+    padding: 6px 25px;
+}
+
+a.my_btn:hover {
+    background-color: #46addf;
+    color: white;
+}
+
+/* jumbo */
+#jumbo {
+    background-color: #37517e;
+    padding: 80px;
+    color: white;
+}
+
+#jumbo img {
+    max-width: 80%;
+}
+
+.animated {
+    animation: move-up-down 2s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes move-up-down {
+    0% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+/* sponsor */
+.sponsor {
+    background-color: #f3f5fa;
+    padding: 40px;
+}
+
+.sponsor img {
+    max-width: 40%;
+    filter: grayscale(100%);
+    transition: all 0.4s ease-in-out;
+}
+
+.sponsor img:hover {
+    filter: none;
+    transform: scale(110%);
+}
+
+/* about */
+.menu-about i {
+    color: #37517e;
+    margin-right: 5px;
+}
+
+.menu-about li {
+    margin: 10px 0;
+}
+
+/* #accordion  */
+
+#accordion,
+#services,
+#teams {
+    background-color: #f3f5fa;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:hover {
+    color: #3f7eeb;
+}
+
+.accordion-item {
+    margin: 15px 0;
+    padding: 5px 0;
+}
+
+.accordion-button span {
+    color: #3f7eeb;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* progress */
+.testo-progress {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+}
+
+.progress {
+    border-radius: 0;
+    height: 10px;
+}
+
+.progress-bar {
+    background-color: #37517e;
+}
+
+/* services  */
+
+.box-service {
+    background-color: #fff;
+    padding: 50px 30px;
+    transition: all ease-in-out 0.4s;
+    box-shadow: 5px 10px 18px #dad6d6;
+}
+
+.box-service:hover,
+.team:hover {
+    transform: translateY(-10px);
+}
+
+#call-to-action {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),url('https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+/* #portfolio */
+
+.portfolio-img {
+    position: relative;
+}
+
+.portfolio-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #28314fa6;
+    width: 100%;
+}
+
+.menu-portfolio li {
+    display: inline-block;
+    list-style: none;
+}
+
+/* teams */
+.team {
+    transition: all ease-in-out 0.4s;
+    box-shadow: 5px 10px 18px #dad6d6;
+}
+.team-img {
+    width: 180px;
+}
+
+.team-info {
+    font-size: 14px;
+}
+
+.team-info h4 {
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    color:  #37517e;
+    font-size: 20px;
+}
+
+.team-info i {
+    color:  #37517e;
+}
+
+.team-info .social a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #f1e7e7;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 4px;
+}
+
+.team-info .social a:hover {
+    background-color: #46addf;
+}
+
+.team-info i:hover {
+    color: white;
+}
+
+.team-info span {
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+    margin: 10px 0;
+}
+
+.team-info span::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #46addf;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+
+/* #pricing */
+.box-plan {
+    box-shadow: 5px 10px 18px #dad6d6;
+    background-color: #fff;
+}
+
+.box-plan h4 {
+    color: #37517e;
+    font-size: 18px;
+}
+
+.box-plan p {
+    font-family: "Jost", sans-serif;
+    font-size: 48px;
+    color: #37517e;
+}
+
+.box-plan span {
+    color: #46addf;
+}
+
+.box-plan ul {
+    color: grey;
+    padding: 20px 0;
+}
+
+.box-plan li {
+    padding: 10px;
+}
+
+.box-plan i {
+    padding-right: 10px;
+}
+
+.box-plan i.fa-check {
+    color: rgb(8, 223, 8);
+}
+
+.box-plan .delete:not(i) {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
