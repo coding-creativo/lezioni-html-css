@@ -107,11 +107,11 @@ a.my_btn:hover {
 /* sponsor */
 .sponsor {
     background-color: #f3f5fa;
-    padding: 40px;
+    padding: 25px;
 }
 
 .sponsor img {
-    max-width: 40%;
+    max-width: 45%;
     filter: grayscale(100%);
     transition: all 0.4s ease-in-out;
 }
@@ -119,6 +119,7 @@ a.my_btn:hover {
 .sponsor img:hover {
     filter: none;
     transform: scale(110%);
+
 }
 
 /* about */
