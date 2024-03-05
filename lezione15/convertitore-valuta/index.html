@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertitore valuta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="converter">
+            <h1>Convertitore di valuta</h1>
+            <div>
+                <label for="amount">Importo</label>
+                <input type="number" id="amount" placeholder="inserisci l'importo" step="0.01">
+            </div>
+            <div>
+                <label for="from">Da:</label>
+                <select name="" id="from">
+                    <option value="usd">Dollari</option>
+                    <option value="eur">Euro</option>
+                </select>
+            </div>
+            <div>
+                <label for="to">A:</label>
+                <select name="" id="to">
+                    <option value="usd">Dollari</option>
+                    <option value="eur" selected>Euro</option>
+                </select>
+            </div>
+            <button id="converti">Converti</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -48,3 +48,15 @@ const doppio = function(x) {
     return x * 2;
 };
 
+
+// function somma(a,b) { //a e b sono parametri
+//     return a + b;
+// }
+
+// const somma = function(a,b) {
+//     return a + b;
+// }
+
+const somma = (a,b) => a + b;
+console.log(somma(10,3));
+
