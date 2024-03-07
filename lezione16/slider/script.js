@@ -6,7 +6,7 @@ let currentIndex = 0;
 let autoInterval;
 
 
-showSlide(currentIndex); //chiamata di funzione
+// showSlide(currentIndex); //chiamata di funzione
 autoSlide();
 //creiamo dinamicamente i dots
 for (let i = 0; i < slides.length; i++){
@@ -20,6 +20,10 @@ for (let i = 0; i < slides.length; i++){
 
     dotsContainer.appendChild(dot);
     // console.log(dot);
+
+    if (i === 0) {
+        dot.classList.add('active');
+    }
    
 }
 
