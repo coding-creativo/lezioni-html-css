@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="tabs-container">
+        <div id="tab1" class="tab-content active-tab">
+            <h2>Contenuto Tab 1</h2>
+            <p>Testo del Tab 1.</p>
+        </div>
+
+        <div id="tab2" class="tab-content">
+            <h2>Contenuto Tab 2</h2>
+            <p>Testo del Tab 2.</p>
+        </div>
+
+        <div id="tab3" class="tab-content">
+            <h2>Contenuto Tab 3</h2>
+            <p>Testo del Tab 3.</p>
+        </div>
+
+        <div class="button-container">
+            <div class="tab-button" onclick="showTab('tab1')">Tab 1</div>
+            <div class="tab-button" onclick="showTab('tab2')">Tab 2</div>
+            <div class="tab-button" onclick="showTab('tab3')">Tab 3</div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

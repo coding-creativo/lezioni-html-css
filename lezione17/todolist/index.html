@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista delle cose da fare</h1>
+        <div class="inputContainer">
+            <input type="text" id="taskInput" placeholder="Aggiungi un'attività">
+            <button class="btn" id="addButton">Aggiungi</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+
+     <!-- finestra Modale -->
+     <div id="modal">
+        <div id="modalContent">
+            <label for="modalInput">Modifica Attività</label>
+            <input type="text" id="modalInput">
+            <button id="confirmEdit">Modifica</button>
+            <button id="closeModal">Annulla</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
