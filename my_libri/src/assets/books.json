@@ -1,0 +1,136 @@
+[
+    {
+      "title": "Il Signore degli Anelli",
+      "author": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "coverUrl": "https://covers.openlibrary.org/b/id/0013119612-M.jpg",
+      "first_publish_year": 1954
+    },
+    {
+      "title": "Orgoglio e pregiudizio",
+      "author": "Jane Austen",
+      "category": "Romanzo",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14552692-M.jpg",
+      "first_publish_year": 1813
+    },
+    {
+      "title": "Il fu Mattia Pascal",
+      "author": "Luigi Pirandello",
+      "category": "Romanzo",
+      "coverUrl": "https://covers.openlibrary.org/b/id/0010362119-L.jpg",
+      "first_publish_year": 1949
+    },
+    {
+      "title": "Il Trono di Spade",
+      "author": "George R.R. Martin",
+      "category": "Fantasy",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9269962-M.jpg",
+      "first_publish_year": 1996
+    },
+    {
+      "title": "Harry Potter e la pietra filosofale",
+      "author": "J.K. Rowling",
+      "category": "Fantasy",
+      "coverUrl": "https://covers.openlibrary.org/b/id/0012373652-M.jpg",
+      "first_publish_year": 1997
+    },
+    {
+      "title": "Il nome del vento",
+      "author": "Patrick Rothfuss",
+      "category": "Fantasy",
+      "coverUrl": "https://covers.openlibrary.org/b/id/97531-M.jpg",
+      "first_publish_year": 2007
+    },
+    {
+      "title": "Don Chisciotte",
+      "author": "Miguel de Cervantes",
+      "category": "Classici",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7977593-L.jpg",
+      "first_publish_year": 1905
+    },
+    {
+      "title": "Il grande Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "category": "Classici",
+      "coverUrl": "https://covers.openlibrary.org/b/id/0014251213-L.jpg",
+      "first_publish_year": 2011
+    },
+    {
+      "title": "Piccole donne",
+      "author": "Louisa May Alcott",
+      "category": "Classici",
+      "coverUrl": "https://covers.openlibrary.org/b/id/0010796209-M.jpg",
+      "first_publish_year": 1968
+    },
+    {
+      "title": "Il vecchio e il mare",
+      "author": "Ernest Hemingway",
+      "category": "Classici",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13866101-M.jpg",
+      "first_publish_year": 1952
+    },
+    {
+      "title": "Il piccolo principe",
+      "author": "Antoine de Saint-Exupéry",
+      "category": "Bambini",
+      "coverUrl": "https://covers.openlibrary.org/b/id/0011345591-M.jpg",
+      "first_publish_year": 1943
+    },
+    {
+      "title": "Matilda",
+      "author": "Roald Dahl",
+      "category": "Bambini",
+      "coverUrl": "https://covers.openlibrary.org/b/id/0012895022-M.jpg",
+      "first_publish_year": 1988
+    },
+    {
+      "title": "Il gatto con gli stivali",
+      "author": "Charles Perrault",
+      "category": "Bambini",
+      "coverUrl": "https://covers.openlibrary.org/b/id/0012889053-M.jpg",
+      "first_publish_year": 1697
+    },
+    {
+      "title": "Lo Hobbit",
+      "author": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "coverUrl": "https://covers.openlibrary.org/b/id/0011387212-L.jpg",
+      "first_publish_year": 1937
+    },
+    {
+      "title": "Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "category": "Mystery",
+      "coverUrl": "https://covers.openlibrary.org/b/id/0013379316-L.jpg",
+      "first_publish_year": 1887
+    },
+    {
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "category": "Classici",
+      "coverUrl": "https://covers.openlibrary.org/b/id/35791-M.jpg",
+      "first_publish_year": 1877
+    },
+    {
+      "title": "La fattoria degli animali",
+      "author": "George Orwell",
+      "category": "Classici",
+      "coverUrl": "https://covers.openlibrary.org/b/id/64201-M.jpg",
+      "first_publish_year": 1945
+    },
+    {
+      "title": "La compagnia dell'anello",
+      "author": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "coverUrl": "https://covers.openlibrary.org/b/id/97531-M.jpg",
+      "first_publish_year": 1954
+    },
+    {
+      "title": "Lo strano caso del dottor Jekyll e del signor Hyde",
+      "author": "Robert Louis Stevenson",
+      "category": "Classici",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13579-M.jpg",
+      "first_publish_year": 1886
+    }
+  ]
+  
